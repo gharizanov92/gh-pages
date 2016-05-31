@@ -1,0 +1,200 @@
+.no-bullet {
+	list-style-type: none;
+}
+
+.no-spacing {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 20px 0px 20px 0px;
+	padding: 0;
+	background: url(../images/grey_wash_wall.png) repeat;
+	font-family: 'Roboto';
+	color: #8F8F8F;
+}
+
+.primary{
+	color: rgb(70, 102, 117);
+}
+
+.complimentary {
+	color: rgb(140, 133, 53);
+}
+
+h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+	font-weight: 200;
+	color: rgb(70, 102, 117);
+	font-family: 'Lora';
+}
+
+h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+	font-weight: 300;
+}
+
+h1 {
+	font-size: 3em;
+	font-weight: 400;
+}
+
+h2 {
+	font-size: 2em;
+}
+
+h3 {
+	font-size: 20px;
+}
+
+#awards .complimentary {
+	font-weight: 400;
+}
+
+.award_header{
+	padding-top: 40px;
+	font-weight: 600;
+}
+
+a {
+	color: #5C5539;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+#wrapper {
+	overflow: hidden;
+	width: 1075px;
+	margin: 0px auto;
+	background: #FFFFFF;
+	box-shadow: 0px 0px 20px rgba(0,0,0,.3);
+}
+
+#page-wrapper {
+	overflow: hidden;
+}
+
+#page {
+	padding: 2em;
+	background: url(../images/paper.jpg) repeat;
+	overflow: hidden;
+	color: #696969;
+	min-height: 1200px;
+	padding-bottom:1em;
+}
+
+#page-header {
+	height:150px;
+}
+
+#name{
+	float:left;
+	width: 65%;
+}
+
+#personal_info {
+	float:right;
+	width:33%;
+}
+
+.personal_info_label {
+	color: rgb(70, 102, 117);
+	margin: 0px;
+}
+
+.personal_info_text {
+	color: rgb(140, 133, 53);
+}
+
+.resume_container {
+}
+
+.resume_column_left {
+	width:48%;
+	float:left;
+}
+
+.column_left_75{
+	width:75%;
+	float:left;
+}
+
+.column_left_60{
+	width:60%;
+	float:left;
+}
+
+.column_left_50{
+	width:50%;
+	float:left;
+}
+
+.column_left_25{
+	width:25%;
+	float:left;
+}
+
+.resume_column_right {
+	width:48%;
+	float:right;
+}
+
+.column_right_75{
+	width:75%;
+	float:right;
+}
+
+.column_right_50{
+	width:50%;
+	float:right;
+}
+
+.column_right_38{
+	width:38%;
+	float:right;
+}
+
+.column_right_25{
+	width:25%;
+	float:right;
+}
+
+
+.resume_section {
+	padding-top:1em;
+	margin-left: 5px;
+}
+
+.resume_section_icon {
+	margin-left:-25px;
+}
+
+.border_left{
+	box-shadow: -4px 0px 0px -2px rgb(70, 102, 117);
+	padding-left: 2px;
+}
+
+.resume_section_header {
+	display:inline-block;
+	width:100%;
+	padding-bottom: 15px;
+	padding-bottom: 3px;
+	font-weight: 600;
+	box-shadow: 0 4px 2px -4px #696969;
+}
+
+.resume_section_body {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.center {
+	width: 100%;
+	margin: 0px auto;
+	text-align: center;
+}
