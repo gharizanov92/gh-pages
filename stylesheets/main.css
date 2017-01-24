@@ -93,13 +93,13 @@ a:hover {
 }
 
 #name{
-	float:left;
-	width: 65%;
+	width: 100%;
 }
 
 #personal_info {
-	float:right;
 	width:33%;
+	height: 100%;
+	margin: 0px auto;
 }
 
 .personal_info_label {

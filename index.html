@@ -8,7 +8,7 @@
     <meta charset="utf-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!--[if lt IE 9]>
-        <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
     <![endif]-->
     <link rel="stylesheet" href="stylesheets/main.css"/>
     <link rel="stylesheet" href="stylesheets/font-awesome.min.css"/>
@@ -22,15 +22,16 @@
         <div id="page">
             <div id="page-header">
                 <div id="name">
-                    <h1>
+                    <h1 style="margin: 0px auto;width: 65%;">
                         Георги Юлиянов Харизанов
                     </h1>
-                    <h3 class="complimentary" style="font-family: Roboto; font-weight: 300">
+                    <h3 class="complimentary" style="font-family: Roboto; font-weight: 300; margin: 0 auto; width: 14%;">
                         Java developer
                     </h3>
-<!--                    <p class="personal_info_label"><i class="fa fa-github"></i> <a href="https://github.com/gharizanov92" class="primary">gharizanov92</a></p>
-                    <p class="personal_info_label" style="margin-left: 2px"><i class="fa fa-map-marker"></i> Sofia</p>-->
+                    <!--                    <p class="personal_info_label"><i class="fa fa-github"></i> <a href="https://github.com/gharizanov92" class="primary">gharizanov92</a></p>
+                                        <p class="personal_info_label" style="margin-left: 2px"><i class="fa fa-map-marker"></i> Sofia</p>-->
                 </div>
+                <br clear="both">
                 <div id="personal_info">
                     <div class="column_left_60">
                         <p class="personal_info_label"><i class="fa fa-envelope-o"></i> Email</p>
@@ -64,7 +65,20 @@
                     <div class="resume_section">
                         <h2 class="resume_section_header"> Education</h2>
 
-                        <div class="resume_section_body"><h3><b>Informatics</b></h3>
+                        <div class="resume_section_body">
+                            <h3><b>Data Mining</b></h3>
+                            <h4 class="complimentary">
+                                <i class="fa fa-university"></i>
+                                Sofia University "St. Kl. Ohridski", FMI
+                            </h4>
+                            <h4>
+                                <i class="fa fa-calendar"></i>
+                                2015 - Present
+                            </h4>
+                        </div>
+
+                        <div class="resume_section_body">
+                            <h3><b>Informatics</b></h3>
                             <h4 class="complimentary">
                                 <i class="fa fa-university"></i>
                                 Sofia University "St. Kl. Ohridski", FMI
@@ -73,17 +87,17 @@
                                 <i class="fa fa-calendar"></i>
                                 2011 - 2015
                             </h4>
+                        </div>
 
-                            <div class="resume_section_body"><h3><b>Informatics, Mathematics and English</b></h3>
-                                <h4 class="complimentary">
-                                    <i class="fa fa-university"></i>
-                                    High School of Mathematics "Nikola Obreshkov", Razgrad
-                                </h4>
-                                <h4 style="margin: 0">
-                                    <i class="fa fa-calendar"></i>
-                                    2006 - 2011
-                                </h4>
-                            </div>
+                        <div class="resume_section_body"><h3><b>Informatics, Mathematics and English</b></h3>
+                            <h4 class="complimentary">
+                                <i class="fa fa-university"></i>
+                                High School of Mathematics "Nikola Obreshkov", Razgrad
+                            </h4>
+                            <h4 style="margin: 0">
+                                <i class="fa fa-calendar"></i>
+                                2006 - 2011
+                            </h4>
                         </div>
                     </div>
 
@@ -203,6 +217,25 @@
                         <h2 class="resume_section_header"> Work Experience</h2>
 
                         <div class="resume_section_body">
+                            <h3><b>Estafet</b></h3>
+                            <h4 class="complimentary">
+                                <i class="fa fa-black-tie"></i>
+                                Consultant Developer
+                            </h4>
+                            <h4>
+                                <i class="fa fa-calendar"></i>
+                                16.11.2015 - Present
+                            </h4>
+                            <div class="resume_section_body">
+                                <ul>
+                                    <li style="padding-bottom: 1em">Development and support of an Oauth2 service</li>
+                                    <li style="padding-bottom: 1em">Development and support of applications for IFTTT channels</li>
+                                    <li style="padding-bottom: 1em">Development and support of Amazon Echo smarthome skills and custom skills</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="resume_section_body">
                             <h3><b>ComSoft LTD.</b></h3>
                             <h4 class="complimentary">
                                 <i class="fa fa-black-tie"></i>
@@ -210,7 +243,7 @@
                             </h4>
                             <h4>
                                 <i class="fa fa-calendar"></i>
-                                01.10.2012 - present
+                                01.10.2012 - 13.11.2015
                             </h4>
                             <div class="resume_section_body">
                                 <ul>
@@ -226,7 +259,7 @@
                 <div class="resume_column_right">
                     <div id="awards" class="resume_section">
                         <h2 class="resume_section_header"> Awards</h2>
-                        <img src="images/Logo-HackFMI3_250.png" style="padding-top: 15px"/>
+                        <img src="images/Logo-HackFMI3_250.png" style="padding-top: 15px; width: 150px"/>
                         <h4 class="complimentary">
                             <i class="fa fa-trophy"></i> Musala Soft's award
                         </h4>
@@ -313,7 +346,7 @@
                                                 JSF
                                             </li>
                                             <li>
-                                                JAX-WS
+                                                JAX-WS, JAX-RS
                                             </li>
                                         </ul>
                                     </li>
@@ -327,7 +360,7 @@
                                                 Spring Data
                                             </li>
                                             <li>
-                                                Familiar with Spring Security
+                                                Spring Security, Oauth2
                                             </li>
                                         </ul>
                                     </li>
@@ -340,6 +373,12 @@
                                     <li>
                                         JUnit
                                     </li>
+                                    <li>
+                                        Mockito
+                                    </li>
+                                    <li>
+                                        Cucumber
+                                    </li>
                                 </ul>
                             </li>
                             <li>
@@ -351,6 +390,13 @@
                                 </ul>
                             </li>
                             <li>
+                                Build automation
+                                <ul>
+                                    <li>Maven</li>
+                                    <li>Gradle</li>
+                                </ul>
+                            </li>
+                            <li>
                                 Python
                                 <ul>
                                     <li>
@@ -358,18 +404,12 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li>
-                                Build automation
-                                <ul>
-                                    <li>Gradle</li>
-                                </ul>
-                            </li>
 
                             <li>
                                 Other
                                 <ul>
-                                    <li>Bower</li>
-                                    <li>Typescript</li>
+                                    <li>Familiar with Bower</li>
+                                    <li>Familiar with Typescript</li>
                                 </ul>
                             </li>
                         </ul>
@@ -393,16 +433,16 @@
                         </div>
 
                         <div class="column_right_50">
-                            <h3><b>IDEs</b></h3>
+                            <h3><b>Amazon Web Services</b></h3>
                             <ul>
                                 <li>
-                                    IntelliJ Idea
+                                    EC2
                                 </li>
                                 <li>
-                                    Netbeans
+                                    Lambdas
                                 </li>
                                 <li>
-                                    Eclipse
+                                    S3
                                 </li>
                             </ul>
                         </div>
@@ -415,6 +455,7 @@
                                 <li>
                                     SQL
                                     <ul>
+                                        <li>MySQL</li>
                                         <li>Oracle</li>
                                     </ul>
                                 </li>
@@ -433,7 +474,44 @@
                             </ul>
                         </div>
 
+
                         <div class="column_right_50">
+                            <h3><b>IDEs</b></h3>
+                            <ul>
+                                <li>
+                                    IntelliJ Idea
+                                </li>
+                                <li>
+                                    Netbeans
+                                </li>
+                                <li>
+                                    Eclipse
+                                </li>
+                            </ul>
+                        </div>
+
+                        <br clear="both"/>
+
+                        <div class="column_left_50">
+                            <h3><b>In-Memory Data Grid</b></h3>
+                            <ul>
+                                <li>
+                                    Hazelcast
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="column_right_50">
+                            <h3><b>Source control</b></h3>
+                            <ul>
+                                <li>
+                                    GIT
+                                </li>
+                                <li>
+                                    SVN
+                                </li>
+                            </ul>
+
                             <h3><b>OS</b></h3>
                             <ul>
                                 <li>
@@ -446,28 +524,20 @@
                         </div>
 
                         <br clear="both"/>
-
-                        <div class="column_left_50">
-                            <h3><b>Source control</b></h3>
-                            <ul>
-                                <li>
-                                    SVN
-                                </li>
-                                <li>
-                                    GIT
-                                </li>
-                            </ul>
-                        </div>
                     </div>
                 </div>
             </div>
 
             <div class="resume_section">
-                <h2 class="resume_section_header"> Work related skills</h2>
+                <h2 class="resume_section_header"> Work related skills and others</h2>
                 <div class="resume_section_body">
                     <ul>
                         <li>
-                            Assistant in FMI, Sofia University "St. Kl. Ohridski", teaching "Introduction to programming" and "Data structures"
+                            <a href="https://github.com/spring-projects/spring-security-oauth/commit/9501b0d671a7d420734b764388f32fe170388b2b">Contributer</a> to Spring Security Oauth (fixed a security issue)
+                        </li>
+                        <li>
+                            Assistant in FMI, Sofia University "St. Kl. Ohridski",
+                            teaching "Introduction to programming", "Data structures" and "Object-Oriented Programming with Java"
                             <h4>
                                 <i class="fa fa-calendar"></i>
                                 01.10.2014 - present
@@ -477,7 +547,10 @@
                             Good communication skills
                         </li>
                         <li>
-                            Experience working in a team in Comsoft Ltd.
+                            Experience working with Agile methodologies in Estafet
+                        </li>
+                        <li>
+                            Experience working in a team in Comsoft Ltd. and Estafet
                         </li>
                     </ul>
                 </div>
