@@ -1,587 +1,383 @@
-<!DOCTYPE html>
-<!--
-========================================================
- Pattern are downloaded from www.subtlepatterns.com
- ========================================================
--->
-<head>
-    <meta charset="utf-8"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!--[if lt IE 9]>
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
-    <![endif]-->
-    <link rel="stylesheet" href="stylesheets/main.css"/>
-    <link rel="stylesheet" href="stylesheets/font-awesome.min.css"/>
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="css/timeline.css"/>
     <title>CV</title>
     <link href='https://fonts.googleapis.com/css?family=Lora:400,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
-</head>
-<body>
-<div id="wrapper">
-    <div id="page-wrapper">
-        <div id="page">
-            <div id="page-header">
-                <div id="name">
-                    <h1 style="margin: 0px auto;width: 65%;">
-                        Георги Юлиянов Харизанов
-                    </h1>
-                    <h3 class="complimentary" style="font-family: Roboto; font-weight: 300; margin: 0 auto; width: 14%;">
-                        Java developer
-                    </h3>
-                    <!--                    <p class="personal_info_label"><i class="fa fa-github"></i> <a href="https://github.com/gharizanov92" class="primary">gharizanov92</a></p>
-                                        <p class="personal_info_label" style="margin-left: 2px"><i class="fa fa-map-marker"></i> Sofia</p>-->
-                </div>
-                <br clear="both">
-                <div id="personal_info">
-                    <div class="column_left_60">
-                        <p class="personal_info_label"><i class="fa fa-envelope-o"></i> Email</p>
-                        <a href="mailto:gharizanov92@gmail.com" class="personal_info_text">gharizanov92@gmail.com</a>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.2/css/all.css" crossorigin="anonymous">
 
-                        <p class="personal_info_label"><i class="fa fa-mobile"></i> Phone</p>
-                        <span class="personal_info_text">0894 89 1337</span>
+    <!-- <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Merriweather+Sans" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css?family=Eczar|Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Roboto" rel="stylesheet">
+    <title>CV - Georgi Harizanov</title>
 
-                        <p class="personal_info_label"><i class="fa fa-calendar"></i> Date of birth</p>
-                        <span class="personal_info_text">03/05/1992</span>
+    <script>
+      function hideScrollPrompt() {
+        var scroll = document.getElementsByClassName("scroll-prompt")[0]
+        scroll.classList.add("hidden")
+      }
+    </script> 
+  </head>
+  <body onScroll="hideScrollPrompt()">
 
-                    </div>
-                    <div class="column_right_38">
-
-                        <p class="personal_info_label"><i class="fa fa-globe"></i> Nationality</p>
-                        <span class="personal_info_text">Bulgarian</span>
-
-                        <p class="personal_info_label"><i class="fa fa-map-marker"></i> Location</p>
-                        <span class="personal_info_text">Sofia</span>
-
-                        <p class="personal_info_label"><i class="fa fa-github"></i> Github</p>
-                        <a href="https://github.com/gharizanov92" class="personal_info_text">gharizanov92</a>
-                    </div>
-
-                </div>
+    <div id="paper" style="min-height: 500px">
+      <div id="header"></div>
+      <div id="content">
+        <section class="personal-info">
+          <div id="introduction">
+            <div class="col-lg-3">
+              <div class="picture-wrapper">
+                <img id="picture" src="img/gharizanov.png" alt="Picture">
+              </div>
+            </div>
+            <div id="name-wrapper">
+              <p id="name">Georgi Harizanov</p>
+              <h3 id="subtitle">Senior Software Engineer</h3>
+            </div>
+            <div id="contacts" class="desktop" style="margin-top: 3em;">
+              <div class="contacts-item">
+                <p id="location">Sofia, Bulgaria <i class="fas fa-map-marker-alt desktop"></i></p>
+                <br/>
+              </div>
+              <div class="contacts-item">
+                <p id="email"><a href="mailto:gharizanov92@gmail.com">gharizanov92@gmail.com</a>
+                  <i class="far fa-envelope desktop" style="margin-top: 5px"></i></p>
+                <br/>
+              </div>
+              <div id="website" class="contacts-item">
+                <p><a href="http://georgi.harizanov.info">http://georgi.harizanov.info</a>
+                  <i class="fa-solid fa-globe desktop" style="margin-top: 5px"></i></p>
+                <br/>
+              </div>
+              <div class="contacts-item">
+                <p id="phone">0894891337<i class="fas fa-phone desktop"></i></p>
+                <br/>
+              </div>
             </div>
 
-            <div class="resume_container">
-
-                <div class="resume_column_left">
-                    <div class="resume_section">
-                        <h2 class="resume_section_header"> Education</h2>
-
-                        <div class="resume_section_body">
-                            <h3><b>Data Mining</b></h3>
-                            <h4 class="complimentary">
-                                <i class="fa fa-university"></i>
-                                Sofia University "St. Kl. Ohridski", FMI
-                            </h4>
-                            <h4>
-                                <i class="fa fa-calendar"></i>
-                                2015 - Present
-                            </h4>
-                        </div>
-
-                        <div class="resume_section_body">
-                            <h3><b>Informatics</b></h3>
-                            <h4 class="complimentary">
-                                <i class="fa fa-university"></i>
-                                Sofia University "St. Kl. Ohridski", FMI
-                            </h4>
-                            <h4>
-                                <i class="fa fa-calendar"></i>
-                                2011 - 2015
-                            </h4>
-                        </div>
-
-                        <div class="resume_section_body"><h3><b>Informatics, Mathematics and English</b></h3>
-                            <h4 class="complimentary">
-                                <i class="fa fa-university"></i>
-                                High School of Mathematics "Nikola Obreshkov", Razgrad
-                            </h4>
-                            <h4 style="margin: 0">
-                                <i class="fa fa-calendar"></i>
-                                2006 - 2011
-                            </h4>
-                        </div>
-                    </div>
-
-                    <div class="resume_section">
-                        <h2 class="resume_section_header"> Languages</h2>
-                        <div id="languages" class="resume_section_body">
-                            <div class="resume_column_left">
-                                <h3> English</h3>
-
-                                <div class="resume_column_left">
-                                    <p class="no-spacing">Understanding</p>
-                                </div>
-
-                                <div class="resume_column_right border_left">
-                                    <div class="column_left_75" style="font-weight: normal">
-                                        <h5 class="no-spacing">Listening</h5>
-                                        <h5 class="no-spacing">Reading</h5>
-                                    </div>
-                                    <div class="column_right_25 primary">
-                                        <h5 class="no-spacing">C1</h5>
-                                        <h5 class="no-spacing">C1</h5>
-                                    </div>
-                                    <br clear="both"/>
-                                </div>
-
-                                <br clear="both"/>
-
-                                <div class="resume_column_left">
-                                    <p class="no-spacing">Speaking</p>
-                                </div>
-
-                                <div class="resume_column_right border_left">
-                                    <div class="column_left_75" style="font-weight: normal">
-                                        <h5 class="no-spacing">Interaction</h5>
-                                        <h5 class="no-spacing">Production</h5>
-                                    </div>
-                                    <div class="column_right_25 primary">
-                                        <h5 class="no-spacing">B2</h5>
-                                        <h5 class="no-spacing">B2</h5>
-                                    </div>
-                                    <br clear="both"/>
-                                </div>
-
-                                <br clear="both"/>
-
-                                <div class="resume_column_left">
-                                    <p class="no-spacing">Writing</p>
-                                </div>
-
-                                <div class="resume_column_right border_left">
-                                    <div class="column_right_25 primary">
-                                        <h5 class="no-spacing">C1</h5>
-                                    </div>
-                                </div>
-
-                                <br clear="both"/>
-                            </div>
-
-                            <div class="resume_column_right">
-                                <h3> German</h3>
-
-                                <div class="resume_column_left">
-                                    <p class="no-spacing">Understanding</p>
-                                </div>
-
-                                <div class="resume_column_right border_left">
-                                    <div class="column_left_75">
-                                        <h5 class="no-spacing">Listening</h5>
-                                        <h5 class="no-spacing">Reading</h5>
-                                    </div>
-                                    <div class="column_right_25 primary">
-                                        <h5 class="no-spacing">A2</h5>
-                                        <h5 class="no-spacing">A2</h5>
-                                    </div>
-                                    <br clear="both"/>
-                                </div>
-
-                                <br clear="both"/>
-
-                                <div class="resume_column_left">
-                                    <p class="no-spacing">Speaking</p>
-                                </div>
-
-                                <div class="resume_column_right border_left">
-                                    <div class="column_left_75" style="font-weight: normal">
-                                        <h5 class="no-spacing">Interaction</h5>
-                                        <h5 class="no-spacing">Production</h5>
-                                    </div>
-                                    <div class="column_right_25 primary">
-                                        <h5 class="no-spacing">A1</h5>
-                                        <h5 class="no-spacing">A1</h5>
-                                    </div>
-                                    <br clear="both"/>
-                                </div>
-
-                                <br clear="both"/>
-
-                                <div class="resume_column_left">
-                                    <p class="no-spacing">Writing</p>
-                                </div>
-
-                                <div class="resume_column_right border_left">
-                                    <div class="column_right_25 primary">
-                                        <h5 class="no-spacing">A1</h5>
-                                    </div>
-                                </div>
-
-                                <br clear="both"/>
-                            </div>
-
-                            <br clear="both"/>
-
-                        </div>
-                    </div>
-
-                    <div class="resume_section">
-                        <h2 class="resume_section_header"> Work Experience</h2>
-                     
-                        <div class="resume_section_body">
-                            <h3><b>Proxiad</b></h3>
-                            <h4 class="complimentary">
-                                <i class="fa fa-black-tie"></i>
-                                Developer Software Applications
-                            </h4>
-                            <h4>
-                                <i class="fa fa-calendar"></i>
-                                13.03.2017 - present
-                            </h4>
-                            <div class="resume_section_body">
-                                <ul>
-                                    <li style="padding-bottom: 1em">Development of a CRUD application with React and Redux</li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div class="resume_section_body">
-                            <h3><b>Estafet</b></h3>
-                            <h4 class="complimentary">
-                                <i class="fa fa-black-tie"></i>
-                                Consultant Developer
-                            </h4>
-                            <h4>
-                                <i class="fa fa-calendar"></i>
-                                16.11.2015 - 10.03.2017
-                            </h4>
-                            <div class="resume_section_body">
-                                <ul>
-                                    <li style="padding-bottom: 1em">Development and support of an Oauth2 service</li>
-                                    <li style="padding-bottom: 1em">Development and support of applications for IFTTT channels</li>
-                                    <li style="padding-bottom: 1em">Development and support of Amazon Echo smarthome skills and custom skills</li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div class="resume_section_body">
-                            <h3><b>ComSoft LTD.</b></h3>
-                            <h4 class="complimentary">
-                                <i class="fa fa-black-tie"></i>
-                                Developer Software Applications
-                            </h4>
-                            <h4>
-                                <i class="fa fa-calendar"></i>
-                                01.10.2012 - 13.11.2015
-                            </h4>
-                            <div class="resume_section_body">
-                                <ul>
-                                    <li style="padding-bottom: 1em">Development and support of Java based web CRM applications</li>
-                                    <li style="padding-bottom: 1em">Development and support of Java message oriented middleware applications, using Apache Camel</li>
-                                    <li>Development and support of Liferay portals</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="resume_column_right">
-                    <div id="awards" class="resume_section">
-                        <h2 class="resume_section_header"> Awards</h2>
-                        <img src="images/Logo-HackFMI3_250.png" style="padding-top: 15px; width: 150px"/>
-                        <h4 class="complimentary">
-                            <i class="fa fa-trophy"></i> Musala Soft's award
-                        </h4>
-                        <h4>
-                            <i class="fa fa-calendar"></i> 2014
-                        </h4>
-
-                        <div class="resume_section_body">
-                            A web-based CMS written for the "Подари Книга" organization. Used for managing books between foster homes.
-                        </div>
-
-                        <h3 class="award_header"> International competition Mathematics & Design</h3>
-                        <h4 class="complimentary">
-                            <i class="fa fa-trophy"></i> Second place
-                        </h4>
-
-                        <h4>
-                            <i class="fa fa-globe"></i> Russia, Moscow
-                        </h4>
-
-                        <h4>
-                            <i class="fa fa-calendar"></i> 2011
-                        </h4>
-
-                        <div class="resume_section_body">
-                            Software that calculates the properties of a gas mixture.
-                        </div>
-
-                        <h3 class="award_header"> National Overgas competition</h3>
-                        <h4 class="complimentary">
-                            <i class="fa fa-trophy"></i> Third place
-                        </h4>
-
-                        <h4>
-                            <i class="fa fa-calendar"></i> 2011
-                        </h4>
-
-                        <div class="resume_section_body">
-                            Software that calculates the properties of a gas mixture (same software, but an earlier version).
-                        </div>
-
-                        <h3 class="award_header"> National IT Olympiad</h3>
-                        <h4 class="complimentary">
-                            <i class="fa fa-trophy"></i> 5.50
-                        </h4>
-
-                        <h4>
-                            <i class="fa fa-calendar"></i> 2011
-                        </h4>
-
-                        <div class="resume_section_body">
-                            An intuitive 3D application for drawing solid geometric figures.
-                        </div>
-
-                        <h3 class="award_header"> Other minor awards</h3>
-                        <h4>
-                            <i class="fa fa-calendar"></i> 2009 - 2011
-                        </h4>
-
-                        <div class="resume_section_body">
-                            Numerous minor awards from competing in regional competitions.
-                        </div>
-
-
-                    </div>
-                </div>
+            <div id="contacts_mobile" class="col-lg-2 mobile" style="margin-top: 3em; margin-bottom: 6em">
+              <div class="contacts-item">
+                <p id="location_mobile"><i class="fas fa-map-marker-alt mobile"></i> Sofia, Bulgaria</p>
+              </div>
+              <div class="contacts-item">
+                <p id="phone_mobile"><i class="fas fa-phone mobile"></i> <a href="tel:0894891337">0894891337</a></p>
+              </div>
+              <div class="contacts-item">
+                <p id="mail_mobile"><i class="fas fa-envelope mobile"></i> <a href="mailto:gharizanov92@gmail.com">gharizanov92@gmail.com</a></p>
+              </div>
             </div>
 
-            <br clear="both"/>
+            <div class="scroll-prompt mobile" id="js_scrollPrompt"><div class="scroll-prompt-shape"></div></div>
 
-            <div class="resume_section">
-                <h2 class="resume_section_header"> Development skills</h2>
-                <div class="resume_section_body">
-                    <div  style="float: left; width: 33%">
-                        <h3><b>Languages and frameworks</b></h3>
-                        <ul>
-                            <li>
-                                Java
-                                <ul>
-                                    <li>
-                                        Java EE
-                                        <ul>
-                                            <li>
-                                                JAX-WS, JAX-RS
-                                            </li>
-                                            <li>
-                                                JSF 1
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        Spring Framework
-                                        <ul>
-                                            <li>
-                                                Spring MVC
-                                            </li>
-                                            <li>
-                                                Spring Data
-                                            </li>
-                                            <li>
-                                                Spring Data Rest
-                                            </li>
-                                            <li>
-                                                Spring Security, Oauth2
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        Apache Camel
-                                    </li>
-<!--                                    <li>
-                                        Familiar with Apache Karaf
-                                    </li>-->
-                                    <li>
-                                        JUnit
-                                    </li>
-                                    <li>
-                                        Mockito
-                                    </li>
-                                    <li>
-                                        Cucumber
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                Build automation
-                                <ul>
-                                    <li>Maven</li>
-                                    <li>Gradle</li>
-                                </ul>
-                            </li>
-                            <li>
-                                NodeJS
-                                <ul>
-                                    <li>
-                                        Express
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                Python
-                                <ul>
-                                    <li>
-                                        Familiar with Django
-                                    </li>
-                                </ul>
-                            </li>
-
-                            <!--li>
-                                Other
-                                <ul>
-                                    <li>Familiar with Bower</li>
-                                    <li>Familiar with Typescript</li>
-                                </ul>
-                            </li-->
-                        </ul>
-                    </div>
-                    <!--</div>-->
-                    <div style="float: left; width: 66%">
-
-                        <div class="column_left_50">
-                            <h3><b>Web development</b></h3>
-                            <ul>
-                                <li>
-                                    Excellent knowledge of Javascript, CSS, HTML.
-                                </li>
-                                <li>
-                                   React, Redux
-                                </li>
-                                <li>
-                                    jQuery, jQueryUI, Bootstrap
-                                </li>
-                                <li>
-                                    AngularJS 1
-                                </li>
-                            </ul>
-                        </div>
-
-                        <div class="column_right_50">
-                            <h3><b>Amazon Web Services</b></h3>
-                            <ul>
-                                <li>
-                                    EC2
-                                </li>
-                                <li>
-                                    Lambdas
-                                </li>
-                                <li>
-                                    S3
-                                </li>
-                            </ul>
-                        </div>
-
-                        <br clear="both"/>
-
-                        <div class="column_left_50">
-                            <h3><b>Databases</b></h3>
-                            <ul>
-                                <li>
-                                    SQL
-                                    <ul>
-                                        <li>MySQL</li>
-                                        <li>PostgreSQL</li>
-                                        <!--<li>Oracle</li>-->
-                                    </ul>
-                                </li>
-                                <li>
-                                    NoSQL
-                                    <ul>
-                                        <li>MongoDB</li>
-                                    </ul>
-                                </li>
-                                <!--li>
-                                    DB Management tools
-                                    <ul>
-                                        <li>SQL Developer</li>
-                                    </ul>
-                                </li-->
-                            </ul>
-                        </div>
-
-
-                        <div class="column_right_50">
-                            <h3><b>IDEs</b></h3>
-                            <ul>
-                                <li>
-                                    IntelliJ Idea
-                                </li>
-                                <li>
-                                    Netbeans
-                                </li>
-                                <li>
-                                    Eclipse
-                                </li>
-                            </ul>
-                        </div>
-
-                        <br clear="both"/>
-
-                        <div class="column_left_50">
-                            <h3><b>In-Memory Data Grid</b></h3>
-                            <ul>
-                                <li>
-                                    Hazelcast
-                                </li>
-                            </ul>
-                        </div>
-
-                        <div class="column_right_50">
-                            <h3><b>Source control</b></h3>
-                            <ul>
-                                <li>
-                                    GIT
-                                </li>
-                                <li>
-                                    SVN
-                                </li>
-                            </ul>
-
-                            <h3><b>OS</b></h3>
-                            <ul>
-                                <li>
-                                    Linux
-                                </li>
-                                <li>
-                                    Windows
-                                </li>
-                            </ul>
-                        </div>
-
-                        <br clear="both"/>
-                    </div>
-                </div>
+          </div>
+        </section>
+        <section>
+          <div class="row">
+            <div class="col-lg-9">
+              <h1 class="section-title">Profile</h1>
+              <div class="print-shadow"></div>
+              <p>
+                I am a senior software developer with almost 10 years of experience. I am most proficient in Java,
+                but I'm willing to code in any language - as long as it fits the problem. I am also decent in frontend development, albeit it's not my passion.
+                I am a strong proponent of writing clean code, maintaining a clean version history and writing meaningful tests.
+                Tests are not written to satisfy some coverage constraint, they are the cornerstone of delivering a well-working feature.
+                I frown upon taking shortcuts, but also understand that sometimes sacrifices have to be made, so long as it doesn't become the norm.
+              </p>
             </div>
 
-            <div class="resume_section">
-                <h2 class="resume_section_header"> Work related skills and others</h2>
-                <div class="resume_section_body">
+            <div class="col-lg-3">
+              <h1 class="section-title">Languages</h1>
+              <div class="print-shadow"></div>
+              <div class="languages">
+                <div class="language-section">
+                  <h3>Bulgarian</h3>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="70"
+                    aria-valuemin="0" aria-valuemax="100" style="width:100%">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="language-section">
+                  <h3>English</h3>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="70"
+                    aria-valuemin="0" aria-valuemax="100" style="width:85%">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="language-section">
+                  <h3>German</h3>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="70"
+                    aria-valuemin="0" aria-valuemax="100" style="width:15%">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div class="row">
+            <div class="col-lg-6">
+              <h1 class="section-title">Skills</h1>
+              <div class="print-shadow"></div>
+
+              <h3><i class="fas fa-angle-right"> </i> Leadership</h3>
+              <p class="skill-description">I have been the lead developer in every project I have worked in the past six years.
+                In that time, I have lead teams of various sizes, up to 4 additional developers, conducted interviews and trainings and contributed towards the retention of developers.
+              </p>
+              <p class="skill-description">
+                I am currently leading the development of an application which faces thousands of users and am
+                responsible for the design, planning, delivery, communication with the client, evaluation of the business requirements as well as delegating the work.
+              </p>
+
+              <h3><i class="fas fa-angle-right"> </i> Communication and Inspiration</h3>
+              <p class="skill-description">I spent five years teaching in Sofia University "St. Kliment Ohridski". I had the honor of introducing students into programming, as well as teaching them about more complex topics such as OOP, Data Structures, web services and some UI development. Depending on their ambitions, I have endorsed them in their endeavours, e.g. assisted them in game development, version control, testing, cryptography and other extracurriculars</p>
+
+              <div id="technical">
+                <div>
+                  <h3><i class="fas fa-angle-right"> </i> Java</h3>
+                  <ul>
+                    <li>Spring Framework</li>
+                    <li>Hibernate</li>
+                    <li>Hazelcast</li>
+                    <li>Kafka</li>
+                    <li>Project Reactor</li>
+                    <li>Apache Camel</li>
+                    <li>Maven</li>
+                    <li>Testing Frameworks like JUnit, Mockito, Cucumber, Selenium</li>
+                    <li>Clojure</li>
+                    <li>Legacy technology such as JSF</li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h3><i class="fas fa-angle-right"> </i> Web</h3>
+                  <ul>
+                    <li>Javascript <a href="http://game.harizanov.info/"> - you can check out this tiny game I wrote a while back for fun</a></li>
+                    <li>React, Redux</li>
+                    <li>Vue.js</li>
+                    <li>jQuery</li>
+                    <li>Node.js, Express</li>
+                    <li>CSS, SASS, Bootstrap</li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h3><i class="fas fa-angle-right"> </i> Cloud</h3>
+                  <ul>
+                    <li>Cloud Foundry</li>
+                    <li>AWS</li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h3><i class="fas fa-angle-right"> </i> Database</h3>
+                  <ul>
+                    <li>PostgreSQL</li>
+                    <li>Sybase</li>
+                    <li>Cassandra</li>
+                    <li>MongoDB</li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h3><i class="fas fa-angle-right"> </i> Python</h3>
+                  <ul>
+                    <li>Flask</li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h3><i class="fas fa-angle-right"> </i> Version Control</h3>
+                  <ul>
+                    <li>Git</li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h3><i class="fas fa-angle-right"> </i> DevOps</h3>
+                  <p class="skill-description">
                     <ul>
-                        <li>
-                            <a href="https://github.com/spring-projects/spring-security-oauth/commit/9501b0d671a7d420734b764388f32fe170388b2b">Contributer</a> to Spring Security Oauth (fixed a security issue)
-                        </li>
-                        <li>
-                            Assistant in FMI, Sofia University "St. Kl. Ohridski",
-                            teaching "Introduction to programming", "Data structures" and "Object-Oriented Programming with Java"
-                            <h4>
-                                <i class="fa fa-calendar"></i>
-                                01.10.2014 - present
-                            </h4>
-                        </li>
-                        <li>
-                            Good communication skills
-                        </li>
-                        <li>
-                            Experience working with Agile methodologies in Estafet
-                        </li>
-                        <li>
-                            Experience working in a team in Comsoft Ltd. and Estafet
-                        </li>
+                      <li>Jenkins</li>
+                      <li>Docker</li>
                     </ul>
+                  </p>
                 </div>
+
+                <div>
+                  <h3><i class="fas fa-angle-right"> </i> Other</h3>
+                  <p class="skill-description">
+                    <ul>
+                      <li>Networking</li>
+                      <li>Linux</li>
+                      <li>Agile</li>
+                    </ul>
+                  </p>
+                </div>
+              </div>
             </div>
 
-        </div>
+            <div id="achievements" class="col-lg-6">
+              <h1 class="section-title">Achievements</h1>
+              <div class="print-shadow"></div>
+              <div class="education-section">
+                <h2><a href="https://github.com/spring-projects/spring-security-oauth/commit/9501b0d671a7d420734b764388f32fe170388b2b">Contribution</a> in Spring Security</h2>
+                <h3 class="secondary">Oath vulnerability fix</h3>
+                <p><i class="far fa-calendar-alt"></i> 2016 </p>
+                <p class="education-description">
+                  Fixed an exploit which allowed for skipping the consent and granting all access
+                </p>
+              </div>
+
+              <div class="education-section">
+                <img src="img/Logo-HackFMI3_250.png" style="padding-top: 15px; width: 150px"/>
+                <h3 class="secondary">Musala Soft's award</h3>
+                <p><i class="far fa-calendar-alt"></i> 2014 </p>
+                <p class="education-description">
+                  Developed a CMS for the "Подари Книга" organization in the third iteration of the HackFMI hackathon. It's purpose was managing books and volunteers in foster homes.
+                </p>
+              </div>
+
+              <div class="education-section">
+                <h2>International Competition Mathematics & Design</h2>
+                <h3 class="secondary">Second place</h3>
+                <p><i class="far fa-calendar-alt"></i> 2011</p>
+                <p class="education-description">
+                  Developed an application which was able to calculate the properties of a gas mixture and classify it based on the result. This would tell the user whether it could be used as stove fuel or for central heating, for example.
+                </p>
+              </div>
+
+              <div class="education-section">
+                <h2>National IT Competition</h2>
+                <h3 class="secondary">Scored 5.5 / 6</h3>
+                <p><i class="far fa-calendar-alt"></i> 2011</p>
+                <p class="education-description">
+                  Competed with a Sketchup-like mathematics application which was tailored to the needs of educators. It was designed to provide the user with an intuitive wаy of drawing volumetric shapes, orthogonal projections, finding intersections, angles and others.
+                </p>
+              </div>
+
+              <div class="education-section">
+                <h2>Numerous other awards</h2>
+                <h3 class="secondary">For participating in various competitions</h3>
+                <p><i class="far fa-calendar-alt"></i> 2009 - 2011</p>
+              </div>
+
+              <h1 class="section-title">Education</h1>
+              <div class="print-shadow"></div>
+              <div class="education-section">
+                <h2>Sofia University "St. Kliment Ohridski"</h2>
+                <h3 class="secondary">Data Mining</h3>
+                <p><i class="far fa-calendar-alt"></i> 2015 - </p>
+                <p class="education-description">
+                   Search Engines, Machine Learning, NLP, Knowledge-based systems
+                </p>
+              </div>
+
+              <div class="education-section">
+                <h2>Sofia University "St. Kliment Ohridski"</h2>
+                <h3 class="secondary">Bachelor in Informatics</h3>
+                <p><i class="far fa-calendar-alt"></i> 2011 - 2015</p>
+                <p class="education-description">
+                </p>
+              </div>
+
+              <div class="education-section">
+                <h2>PMG "Nikola Obreshkov", Razgrad</h2>
+                <p><i class="far fa-calendar-alt"></i> 2006 - 2011</p>
+              </div>
+            </div>
+        </section>
+        <section id="experience" class="cd-timeline js-cd-timeline">
+          <h1 class="section-title">Experience</h1>
+          <div class="print-shadow"></div>
+          <div class="cd-timeline__container">
+            <div class="cd-timeline__block js-cd-block">
+              <div class="cd-timeline__img cd-timeline__img--picture js-cd-img">
+                <span class="icon"><i class="fas fa-briefcase"></i></span>
+              </div> <!-- cd-timeline__img -->
+
+              <div class="cd-timeline__content js-cd-content experience-section">
+                <h2>Tick42</h2>
+                <h3 class="secondary">Senior Software Engineer II</h3>
+                <p>
+                  Developed and lead the development and improvement of different bank related applications - new and legacy. I took a lead role or worked alone or had teams of various sizes. Conducted interviews and trainings.
+                </p>
+                <span class="cd-timeline__date"><i class="far fa-calendar-alt"></i> Sep 2017 - Present</span>
+              </div>
+            </div>
+
+            <div class="cd-timeline__block js-cd-block">
+              <div class="cd-timeline__img cd-timeline__img--picture js-cd-img">
+                <span class="icon"><i class="fas fa-briefcase"></i></span>
+              </div> <!-- cd-timeline__img -->
+
+              <div class="cd-timeline__content js-cd-content experience-section">
+                <h2>Proxiad</h2>
+                <h3 class="secondary">Senior Java Developer</h3>
+                <p>
+                  Lead a team of four people and was responsible for the architecture and delivery of a new app which would automate payments
+                </p>
+                <span class="cd-timeline__date"><i class="far fa-calendar-alt"></i> March 2017 - Sep 2017</span>
+              </div> <!-- cd-timeline__content -->
+            </div> <!-- cd-timeline__block -->
+
+            <div class="cd-timeline__block js-cd-block">
+              <div class="cd-timeline__img cd-timeline__img--picture js-cd-img">
+                <span class="icon"><i class="fas fa-briefcase"></i></span>
+              </div> <!-- cd-timeline__img -->
+
+              <div class="cd-timeline__content js-cd-content experience-section">
+                <h2>Estafet</h2>
+                <h3 class="secondary">Consultant Developer</h3>
+                <p>
+                  Took part and eventually took over the development of the first Amazon Echo SmartHome skills. I also had experience with IFTT integration as well as developing an Oauth authorization service.
+                </p>
+                <span class="cd-timeline__date"><i class="far fa-calendar-alt"></i> Nov 2015 - March 2017</span>
+              </div> <!-- cd-timeline__content -->
+            </div> <!-- cd-timeline__block -->
+
+            <div class="cd-timeline__block js-cd-block">
+              <div class="cd-timeline__img cd-timeline__img--location js-cd-img">
+                <span class="icon"><i class="fas fa-briefcase"></i></span>
+              </div> <!-- cd-timeline__img -->
+
+              <div class="cd-timeline__content js-cd-content experience-section">
+                <h2>ComSoft LTD.</h2>
+                <h3 class="secondary">Developer Software Applications</h3>
+                <p>
+                  Development and support of CRM applications, message oriented middleware applications using Apache Camel and Liferay portals
+                </p>
+                <span class="cd-timeline__date"><i class="far fa-calendar-alt"></i> Mar 2016 - Jun 2016</span>
+              </div> <!-- cd-timeline__content -->
+            </div> <!-- cd-timeline__block -->
+          </div>
+        </section> <!-- cd-timeline -->
+        <section id="additional-information">
+          <div class="row">
+            <div class="col-lg-12">
+              <h1 class="section-title">ADDITIONAL INFORMATION</h1>
+              <div class="print-shadow"></div>
+              <p>
+                I have a strong passion about solving problems and I love challenges. I took up on software development at the age of 11 and have used this skill to solve as many problems as I could in my life. Be it note-taking, bots, automations, animations or whatever. I used to play chess a lot, but nowadays my hobbies have shifted into handcrafting things out of wood, building PCs and trying to make the perfect cup of coffee with a manual lever machine
+              </p>
+            </div>
+        </section>
+      </div>
     </div>
-</div>
-</body>
+
+    <script src="js/main.js"></script> <!-- Resource JavaScript -->
+  </body>
 </html>
